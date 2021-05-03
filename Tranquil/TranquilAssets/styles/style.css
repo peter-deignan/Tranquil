@@ -1,0 +1,335 @@
+@charset "UTF-8";
+
+body, html{
+	height: 100%;
+	margin: 0px;
+	background-color: #ECECEC;
+}
+
+.hero-image{
+	background-image: linear-gradient(#1C17BD, #1C17BD), url("../images/NewBanner.png");
+	height: 67%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#banner img{
+	width: 26%;
+	height: auto;
+	padding-left: 36%;
+	padding-top: 3%;
+	overflow: hidden;
+}
+
+#content #mainContent h1{
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 35px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+#content #mainContent h2 {
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 30px;
+	color: rgba(0,0,0,1.00);
+	padding: 5px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+#content #mainContent p {
+	color: #000000;
+	font-family: "Noto Sans JP", sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 21px;
+}
+
+#content #mainContent img{
+	width: 96%;
+	height: auto;
+}
+
+#content #mainContent h3{
+	color: rgba(0,0,0,1.00);
+	font-family:"Noto Sans JP", sans-serif;
+	font-size: 30px;
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+#content #mainContent li{
+	color: rgba(0,0,0,1.00);
+	font-family: "Noto Sans JP", sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 21px;
+	padding-bottom: 15px;
+}
+
+#content #mainContent h4{
+	color: rgba(0,0,0,1.00);
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 35px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+#content #mainContent h5{
+	color: rgba(0,0,0,1.00);
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 35px;
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+#content #mainContent h6{
+	color: rgba(0,0,0,1.00);
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 35px;
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+#mainContent {
+	padding-left: 2%;
+	width: 71%;
+	float: left;
+	padding-right: 2%;
+	padding-top: 15px;
+}
+
+#mainwrapper {
+	width: 80%;
+	overflow: auto;
+	margin-left: 10%;
+}
+
+#footerbar {
+	height: 18px;
+	clear: both;
+	background-color: #004AAD;
+	width: 100%;
+}
+
+
+@media screen and (max-width: 1025px){
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+
+.hero-image{
+		height: 22%;
+	}
+	
+#banner img{
+	width: 9%;
+	height: auto;
+	padding-left: 44%;
+	padding-top: 15px;
+	}
+
+#content #mainContent h1{
+	padding-top: 35px;
+	font-size: 25px;
+}
+	
+#content #mainContent p{
+	width: 90%;
+	font-size: 20px;
+}
+	
+#content #mainContent h2{
+	width: 100%;
+	font-size: 25px;
+}
+
+#content #mainContent h3 {
+	font-size: 25px;
+	width: 100%;
+}
+	
+#content #mainContent li{
+	font-size: 20px;
+}
+	
+#content #mainContent h4{
+	width: 100%;
+	font-size: 25px;
+}
+	
+#content #mainContent h5{
+	font-size: 25px;
+	width: 100%;
+}
+	
+#content #mainContent h6{
+	width: 100%;
+	font-size: 25px;
+}
+
+#content #mainContent img{
+	width: 100%;
+	height: auto;
+}
+	
+footer {
+	width: 96%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+}
+
+/* Tablet view */
+@media screen and (max-width: 769px) {
+
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+
+#banner img{
+	width: 12%;
+	height: auto;
+	padding-left: 44%;
+}
+#content #mainContent h1{
+	padding-top: 15px;
+	font-size: 25px;
+}
+	
+#content #mainContent p{
+	width: 90%;
+	font-size: 20px;
+}
+	
+#content #mainContent h2{
+	width: 100%;
+	font-size: 25px;
+}
+
+#content #mainContent h3 {
+	font-size: 25px;
+	width: 100%;
+}
+	
+#content #mainContent li{
+	font-size: 20px;
+}
+	
+#content #mainContent h4{
+	width: 100%;
+	font-size: 25px;
+}
+	
+#content #mainContent h5{
+	font-size: 25px;
+	width: 100%;
+}
+	
+#content #mainContent h6{
+	width: 100%;
+	font-size: 25px;
+}
+
+#content #mainContent img{
+	width: 100%;
+	height: auto;
+}
+	
+footer {
+	width: 96%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+}
+
+/* Mobile view */
+@media screen and (max-width:480px) {
+
+.hero-image{
+	height: 33%;	
+}
+	
+#banner img{
+	width: 35%;
+	height: auto;
+	padding-left: 30%;
+}
+
+#content #mainContent h1{
+	font-size: 23px;
+}
+	
+#content #mainContent p{
+	width: 90%;
+	font-size: 18px;
+}
+
+#content #mainContent h2{
+	width: 100%;
+	font-size: 21px;
+}
+
+#content #mainContent h3 {
+	font-size: 15px;
+	width: 100%;
+}
+	
+#content #mainContent li{
+	font-size: 18px;
+}
+	
+#content #mainContent h4{
+	width: 100%;
+	font-size: 21px;
+}
+	
+#content #mainContent h5{
+	font-size: 21px;
+	width: 100%;
+}
+	
+#content #mainContent h6{
+	width: 100%;
+	font-size: 21px;
+}
+
+}
+
+@media screen and (max-width: 361px){
+#content #mainContent h1{
+	font-size: 22px;	
+}
+	
+#content #mainContent h3 {
+	font-size: 13px;
+	width: 100%;
+}
+	
+#content #mainContent li{
+	font-size: 13px;
+}
+}
+
+@media screen and (max-width: 321px){
+	#content #mainContent h1{
+		font-size: 20px;
+	}
+	#content #mainContent h2{
+		font-size: 19px;
+	}
+	#content #mainContent h3{
+		font-size: 12px;
+	}
+	#content #mainContent li{
+		font-size: 18px;
+	}
+	#content #mainContent h5{
+		font-size: 19px;
+	}
+}
