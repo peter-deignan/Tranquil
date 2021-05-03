@@ -71,7 +71,7 @@ body, html{
 #content #mainContent h4{
 	color: rgba(0,0,0,1.00);
 	font-family: "Noto Sans JP", sans-serif;
-	font-size: 35px;
+	font-size: 30px;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 }
@@ -79,7 +79,7 @@ body, html{
 #content #mainContent h5{
 	color: rgba(0,0,0,1.00);
 	font-family: "Noto Sans JP", sans-serif;
-	font-size: 35px;
+	font-size: 30px;
 	padding: 0px 0px 10px 0px;
 	margin: 0px 0px 0px 0px;
 }
@@ -87,7 +87,7 @@ body, html{
 #content #mainContent h6{
 	color: rgba(0,0,0,1.00);
 	font-family: "Noto Sans JP", sans-serif;
-	font-size: 35px;
+	font-size: 30px;
 	padding: 0px 0px 10px 0px;
 	margin: 0px 0px 0px 0px;
 }
