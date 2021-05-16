@@ -1,0 +1,709 @@
+@charset "UTF-8";
+
+body, html{
+	height: 100%;
+	margin: 0px;
+	background-color: #ECECEC;
+}
+
+.header{
+	background-color: #1C17BD;
+}
+
+.main{
+	width: 25%;
+	height: auto;
+	padding-left: 37%;
+	padding-top: 15px;
+	overflow: hidden;
+}
+
+.responsive{
+	display: none;
+}
+
+#content #mainContent h1{
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 30px;
+	padding: 10px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	color: #14117E;
+}
+
+#content #mainContent h2 {
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 23px;
+	padding: 10px 0px 10px 0px;
+	margin: 0px 0px 0px 0px;
+	color: #14117E;
+}
+
+#content #mainContent p {
+	color: #000000;
+	font-family: "Noto Sans JP", sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 21px;
+}
+
+#content #mainContent li{
+	color: rgba(0,0,0,1.00);
+	font-family: "Noto Sans JP", sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 21px;
+	padding-bottom: 15px;
+}
+
+#mainContent {
+	padding-left: 2%;
+	width: 80%;
+	float: left;
+	padding-right: 2%;
+	padding-top: 0px;
+}
+
+#mainwrapper {
+	width: 80%;
+	overflow: auto;
+	margin-left: 10%;
+}
+
+#content #mainContent ol{
+	font-size: 15px;
+	font-family: "Noto Sans JP", sans-serif;
+	padding: 0px;
+}
+
+#footerbar {
+	height: 18px;
+	clear: both;
+	background-color: #1C17BD;
+	width: 100%;
+}
+
+/*4k 2560 x 586*/
+@media screen and (max-width: 2561px) and (max-height: 587px){
+
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+
+.main{
+	width: 12%;
+	height: auto;
+	padding-left: 44%;
+}
+
+#content #mainContent h1{
+	font-size: 42px;	
+}
+#content #mainContent h2{
+	font-size: 40px;	
+}
+#content #mainContent p{
+	font-size: 38px;	
+}
+
+#content #mainContent li{
+	font-size: 38px;
+}
+	
+#content #mainContent ol{
+	font-size: 35px;	
+}
+}
+
+/*Laptop 1440 x 586*/
+@media screen and (max-width: 1441px) and (max-height: 587px){
+	
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+	
+.main{
+	width: 15%;
+	height: auto;
+	padding-left: 42%;
+	padding-top: 15px;
+}
+
+#content #mainContent p{
+	font-size: 30px;
+}
+	
+#content #mainContent li{
+	font-size: 30px;	
+}
+	
+
+#content #mainContent ol{
+	font-size: 26px;	
+}
+}
+
+/*iPad Pro 1024 x 1366*/
+@media screen and (max-width: 1025px) and (max-height: 1367px){
+	
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+
+#content #mainContent h2{
+	font-size: 32px;
+}
+#content #mainContent p{
+	font-size: 30px;	
+}
+	
+#content #mainContent li{
+	font-size: 30px;
+}
+	
+#content #mainContent ol{
+	font-size: 25px;	
+}
+}
+
+/*Laptop 1024 x 586*/
+@media screen and (max-width: 1025px) and (max-height: 587px){
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+	
+.main{
+	width: 23%;
+	height: auto;
+	padding-left: 41%;
+	padding-top: 15px;
+	}
+
+#content #mainContent h1{
+	padding-top: 35px;
+	font-size: 25px;
+}
+	
+#content #mainContent p{
+	width: 90%;
+	font-size: 20px;
+}
+	
+#content #mainContent h2{
+	width: 100%;
+	font-size: 25px;
+}
+	
+#content #mainContent li{
+	font-size: 20px;
+}
+	
+footer {
+	width: 96%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+	
+#content #mainContent ol{
+	font-size: 16px;	
+}
+}
+
+/*iPad 768 x 1024*/
+@media screen and (max-width: 769px) and (max-height: 1025px){
+	
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+
+.main{
+	padding-left: 30%;
+	width: 40%;
+	height: auto;
+}
+	
+#content #mainContent h1{
+	font-size: 36px;	
+}
+#content #mainContent h2{
+	font-size: 35px;
+	}	
+
+#content #mainContent li{
+	font-size: 30px;
+	}
+	
+#content #mainContent ol{
+	font-size: 28px;	
+}
+}
+
+/* Tablet 768 x 586 */
+@media screen and (max-width: 769px) and (max-height: 587px) {
+
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+	
+.main{
+	width: 25%;
+	height: auto;
+	padding-left: 37%;
+	padding-top: 5px;
+}
+
+#content #mainContent h1{
+	padding-top: 15px;
+	font-size: 26px;
+}
+	
+#content #mainContent p{
+	width: 90%;
+	font-size: 20px;
+}
+	
+#content #mainContent h2{
+	width: 100%;
+	font-size: 25px;
+}
+	
+#content #mainContent li{
+	font-size: 20px;
+}
+	
+#content #mainContent ol{
+	font-size: 15px;	
+}
+footer{
+	width: 96%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+}
+
+/*Surface Duo 540 x 720*/
+@media screen and (max-width: 541px) and (max-height: 721px){
+
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+	
+.main {
+	display: none;
+}
+	
+.responsive{
+	display: block;
+	width: 40%;
+	height: auto;
+	padding: 2% 0% 2% 3%;
+}
+	
+#content #mainContent h1{
+	font-size: 23px;	
+}
+
+#content #mainContent h2{
+	font-size: 22px;	
+}
+#content #mainContent p{
+	font-size: 20px;
+}
+#content #mainContent li{
+	font-size: 20px;	
+}
+	
+#content #mainContent ol{
+	font-size: 15px;	
+}
+} 
+
+/* Mobile 425 x 586*/
+@media screen and (max-width: 426px) and (max-height: 587px) {
+
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+
+.main{
+	display: none;
+}
+
+.responsive{	
+	width: 40%;
+	height: auto;
+	padding: 10px 0px 10px 15px;
+}
+
+#content #mainContent h1{
+	font-size: 22px;	
+}
+#content #mainContent p{
+	width: 90%;
+	font-size: 16px;
+}
+
+#content #mainContent h2{
+	width: 100%;
+	font-size: 21px;
+}
+	
+#content #mainContent li{
+	font-size: 16px;
+}
+	
+#content #mainContent ol{
+	font-size: 12px;	
+}
+}
+
+/*iPhone 6/7/8 Plus 414 x 736*/
+@media screen and (max-width: 415px) and (max-height: 737px){
+
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+
+.main{
+	display: none;
+}
+	
+.responsive{
+	display: block;
+	width: 47%;
+	height: auto;
+	padding: 2% 0% 2% 4%;
+}
+	
+#content #mainContent h1{
+	font-size: 22px;	
+}
+
+#content #mainContent h2{
+	font-size: 21px;
+}
+	
+#content #mainContent p{
+	font-size: 17px;	
+}
+	
+#content #mainContent li{
+	font-size: 17px;
+}
+	
+#content #mainContent ol{
+	font-size: 12px;	
+}
+}
+
+/*Pixel 2 XL 411 x 823*/
+@media screen and (max-width: 412px) and (max-height: 824px){
+
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+	
+.main{
+	display: none;
+}
+	
+.responsive{
+	display: block;
+	width: 50%;
+	height: auto;
+	padding: 2% 0% 2% 4%;
+}
+	
+#content #mainContent h1{
+	font-size: 22px;	
+}
+
+#content #mainContent h2{
+	font-size: 21px;
+}
+	
+#content #mainContent p{
+	font-size: 17px;	
+}
+	
+#content #mainContent li{
+	font-size: 17px;
+}
+	
+#content #mainContent ol{
+	font-size: 12px;	
+}
+}
+
+/*Pixel 2 411 x 731*/
+@media screen and (max-width: 412px) and (max-height: 732px){
+	
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+
+.main{
+	display: none;
+}
+	
+.responsive{
+	display: block;
+	width: 47%;
+	height: auto;
+	padding: 2% 0% 2% 4%;
+}
+	
+#content #mainContent h1{
+	font-size: 21px;	
+}
+
+#content #mainContent h2{
+	font-size: 20px;
+}
+	
+#content #mainContent p{
+	font-size: 17px;	
+}
+	
+#content #mainContent li{
+	font-size: 17px;
+}
+}
+
+/*iPhone X 375 x 812*/
+@media screen and (max-width: 376px) and (max-height: 813px){
+
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+
+.main{
+	display: none;
+}
+	
+.responsive{
+	display: block;
+	width: 55%;
+	height: auto;
+	padding: 2% 0% 2% 4%;
+}
+	
+#content #mainContent h1{
+	font-size: 20px;	
+}
+	
+#content #mainContent h2{
+	font-size: 19px;
+}
+	
+#content #mainContent p{
+	font-size: 15px;	
+}
+	
+#content #mainContent li{
+	font-size: 15px;
+}
+}
+
+/*iPhone 6/7/8 375 x 667*/
+@media screen and (max-width: 376px) and (max-height: 668px){
+	
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+	
+.main{
+	display: none;
+}
+	
+.responsive{
+	display: block;
+	width: 47%;
+	height: auto;
+	padding: 2% 0% 2% 4%;
+}
+	
+#content #mainContent h1{
+	font-size: 20px;	
+}
+	
+#content #mainContent h2{
+	font-size: 19px;
+}
+	
+#content #mainContent p{
+	font-size: 15px;	
+}
+	
+#content #mainContent li{
+	font-size: 15px;
+}
+}
+
+/*Mobile 375 x 586*/
+@media screen and (max-width: 376px) and (max-height: 587px){
+	
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+	
+.main{
+	display: none;
+}
+	
+.responsive{
+	display: block;
+	width: 47%;
+	height: auto;
+	padding: 2% 0% 2% 4%;
+}
+	
+#content #mainContent h1{
+	font-size: 20px;	
+}
+	
+#content #mainContent h2{
+	font-size: 19px;
+}
+	
+#content #mainContent p{
+	font-size: 15px;	
+}
+	
+#content #mainContent li{
+	font-size: 15px;
+}
+}
+
+/*Moto G4/Galaxy S5 360 x 640*/
+@media screen and (max-width: 361px) and (max-height: 641px){
+	
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+
+#content #mainContent h1{
+	font-size: 20px;	
+}
+
+#content #mainContent h2{
+	font-size: 19px;	
+}
+	
+#content #mainContent p{
+	font-size: 15px;	
+}
+#content #mainContent li{
+	font-size: 15px;
+}
+}
+
+/*Mobile 320 x 586*/
+@media screen and (max-width: 321px) and (max-height:587px){
+	
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+	
+.responsive{
+	width: 50%;
+	height: auto;
+}
+
+#content #mainContent h1{
+	font-size: 18px;	
+}
+	
+#content #mainContent h2{
+	font-size: 17px;
+}
+
+#content #mainContent p{
+	font-size: 14px;	
+}
+
+#content #mainContent li{
+	font-size: 13px;
+}
+}
+
+/*iPhone 5/SE 320 x 568*/
+@media screen and (max-width: 321px) and (max-height: 569px){
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+}
+
+/*Galaxy Fold 280 x 653*/
+@media screen and (max-width: 281px) and (max-height: 654px){
+	
+#mainContent {
+	padding-top: 10px;
+	float: none;
+	width: 96%;
+}
+	
+.main{
+	display: none;
+}
+	
+.responsive{
+	display: block;
+	width: 55%;
+	height: auto;
+	padding: 2% 0% 2% 4%;
+}
+	
+#content #mainContent h1{
+	font-size: 16px;	
+}
+	
+#content #mainContent h2{
+	font-size: 15px;
+}
+	
+#content #mainContent p{
+	font-size: 13px;	
+}
+	
+#content #mainContent li{
+	font-size: 13px;
+}
+	
+#content #mainContent ol{
+	font-size: 10px;	
+}
+}
