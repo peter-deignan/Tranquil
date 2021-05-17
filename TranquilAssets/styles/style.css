@@ -243,7 +243,7 @@ footer {
 	}
 	
 #content #mainContent ol{
-	font-size: 28px;	
+	font-size: 25px;	
 }
 }
 
@@ -633,7 +633,7 @@ footer{
 #mainContent {
 	padding-top: 10px;
 	float: none;
-	width: 320px;
+	width: 96%;
 }
 	
 .responsive{
@@ -656,6 +656,10 @@ footer{
 #content #mainContent li{
 	font-size: 13px;
 }
+	
+#content #mainContent ol{
+	font-size: 10px;
+}
 }
 
 /*iPhone 5/SE 320 x 568*/
@@ -663,7 +667,11 @@ footer{
 #mainContent {
 	padding-top: 10px;
 	float: none;
-	width: 320px;
+	width: 96%;
+}
+	
+#content #mainContent ol{
+	font-size: 10px;
 }
 }
 
@@ -704,6 +712,6 @@ footer{
 }
 	
 #content #mainContent ol{
-	font-size: 10px;	
+	font-size: 8px;	
 }
 }
